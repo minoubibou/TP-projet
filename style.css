@@ -1,0 +1,103 @@
+/* style.css */
+body {
+     
+        font-family: helvetica, arial, sans-serif;/*Choix de polices*/
+        margin: 2em;  /*Imposer la marge pour la page en mesure em*/
+        background-color: #e7f3fa; /*Couleur du fond de page*/
+    }
+    h1 { /*Styles de titres*/
+        color: #065786; /*Couleur bleu clair pour les titres h1*/
+        text-align: center; /*Les titres h1 sont centrés*/
+    }
+    
+    .menu a { /*Styles apportés sur les menus de navigation*/
+        text-decoration: none; /*Aucune décoration des éléments du menu*/
+        color:black /*Couleur noire des éléments du menu*/
+    }
+    
+    .menu a:hover { /*Styles apportés sur un lien du menu lorsqu'on le survole avec la souris*/
+        color: #f8d0f8; /*Couleur blanche lors de ce déplacement du curseur sur les éléments du menu*/
+    }
+    
+    .menu-list { /*Styles apportés sur le conteneur principal d'une liste de menu */
+        list-style-type: none;/*Supprimer les puces ou numeros du conteneur du menu*/
+        padding: 0; /*Supprimer la marge interieure du conteneur du menu*/
+        text-align: center; /*Centrer les élements de la liste menu au conteneur*/
+    }
+    .menu-item { /*Styles apportés sur des éléments de menus ou de listes horizontales*/
+        display:inline-block; /*Afficher les éléments de liste de menu horizontalement plutôt que verticalement*/
+        width: 30%; /*Largeur de 30% de la largeur du conteneur du menu*/
+        text-align: center; /*Centrer le texte du menu*/
+        border: 2px solid #065786; /*Bordure continue de 2 pixels de couleur bleu du menu*/
+    }
+    .menu-item:hover { /*Styles apportés sur les éléments de menu individuels lorsqu'un utilisateur survole ces éléments avec la souris*/
+        border: 2px solid #065786; /*Bordure  uniforme de 2 pixels et de couleur bleu*/
+        background-color: #5399c1; /*Fond du contenu est bleu clair*/
+    }
+    .personnal-block { /*Styles apportés sur le bloc personnel*/
+        background-color: #5399c1; /*La couleur du fond est bleu clair*/
+        border-radius: 15px;/*les coins de la bordure sont arrondis avec un rayon de 15 pixels*/
+        border : 3px solid #fff; /*Bordure continue de 3 pixels de couleur blanche*/
+        text-align: center; /*Centrer le texte au bloc*/
+        margin-bottom: 5px; /*Espacement de 5 pixels sous chaque bloc personnel*/
+    } 
+    .horizontal-block { /*Styles apportés sur le bloc horizontal*/
+        text-align: center; /*Centrer le texte au bloc*/
+        padding: 0;/*Suppression de la marge intérieure du bloc*/
+    }
+    .cv-block { /*Styles apportés sur le bloc CV*/
+        background-color: #9db8c7; /*La couleur du fond est bleu clair*/
+        border-radius: 15px;/*les coins de la bordure sont arrondis avec un rayon de 15 pixels*/
+        border: 3px solid #fff; /*Bordure continue de 3 pixels et de couleur blanche*/
+        text-align: center; /*Centrer le texte au bloc*/
+        display: inline-table;/*Chaque tableau est affiché côte à côte sur la même ligne*/
+        width: 30%; /*Largeur de l'élément est de 30% de la largeur de son conteneur*/
+        height: 300px; /*Hauteur de l'élément est de 300 pixels*/
+        margin: 0; /*Les marges extérieures sont supprimées*/
+    }
+    .icon { /*Styles apportés sur tous les icones*/
+        width: 100px; /*Largeur de l'icone est de 100 pixels*/
+        height: 90px; /*Hauteur de l'icone est de 90 pixels*/
+    }
+    .cv-block .description ul{ /*Styles apportés sur tous les éléments de la liste non ordonnee <ul> à l'intérieur de ".cv-block"*/
+        display: inline-block; /*Afficher les éléments de liste de menu horizontalement plutôt que verticalement*/
+        text-align: left;/*Listes et leurs contenus sont affichés a gauche*/
+        padding-left: 0;/*Aucun espace a gauche des listes*/
+    }
+    .cv-block .description ol{ /*Styles apportés sur tous les éléments de la liste ordonnee <ol> avec la classe ".description "à l'intérieur de ".cv-block"*/
+        display: inline-block; /*Listes sont affiches en boite compacte*/
+        text-align: left; /*Listes et leurs contenus sont affiches a gauche*/
+        padding-left: 0; /*Aucun espace a gauche des listes*/
+    }
+    #experience { /*Styles apportés pour la section expérience*/
+        background-color: #fff; /*Couleur de fond est blanc*/
+        border: 3px solid #5399c1;/*Bordure  uniforme de 3 pixels et de couleur bleu clair*/
+    }
+
+    #langues { /*Styles apportés pour la section langues*/
+        background-color: #b6f9f6;/* Couleur de fond est bleu clair*/
+        border: 3px solid #5399c1; /*Bordure  uniforme de 3 pixels et de couleur bleu clair*/
+    }
+    
+    table, /*Styles aux tableaux*/
+    th, /*Styles aux cellules d'en-tete*/
+    td { /*Styles aux cellules standards*/
+        margin: 0 auto; /*Tableau est centré horizontalement*/
+        border: 1px solid; /*Bordure continue de 1 pixels autour du tableau et contenus*/
+    }
+    thead { /*Style pour l'en-tete des tableaux*/
+        background-color: #5399c1; /*L'en-tete est de fond bleu clair*/
+    }
+    
+    .adress { /*la classe ".adress" est utilisée pour une adresse ici*/
+        width: 100%; /*La largeur occupe tout l'espace disponible*/
+        text-align: center; /*Centrer le contenu au centre*/
+    }
+    .loisirs-block { /*Styles apportés pour tous les éléments dédiés aux loisirs*/
+        background-color: #5399c1; /*Le fond de ce contenu est bleu clair*/
+        border-radius: 15px; /*les coins de la bordure sont arrondis avec un rayon de 15 pixels*/
+        border: 3px solid #fff; /*Bordure continue de 3 pixels et de couleur blanche*/
+        text-align: center; /*Centrer le texte au centre*/
+        margin-bottom: 5px; /*Espacement de 5 pixels sous chaque bloc loisirs*/
+    }
+    
